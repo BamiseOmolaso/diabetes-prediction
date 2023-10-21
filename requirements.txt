@@ -20,7 +20,7 @@ python-lsp-jsonrpc==1.0.0
 pywin32==305.1
 PyYAML==6.0
 rich==13.6.0
-sklearn
+scikit-learn>=0.24.3
 scipy==1.11.3
 smmap==5.0.1
 streamlit==1.27.2
