@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-with open('model_diabetesprediction.pkl', 'rb') as file:
+with open('/model_diabetesprediction.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
     
     
