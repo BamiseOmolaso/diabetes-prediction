@@ -8,7 +8,7 @@ Created on Sat Oct 21 20:14:33 2023
 import numpy as np
 import pickle
 import streamlit as st
-import scikit-learn as sklearn
+import sklearn
 
 with open('model_diabetesprediction.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
