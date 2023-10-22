@@ -44,7 +44,7 @@ def main():
     # get input data from user
     pregnancies = st.text_input("Number of Pregnancies")
     
-    glucose = st.text_input("Glucose level (mg/dl)")
+    glucose = st.text_input("2 hours post OGTT Glucose level (mg/dl)")
     
     bmi =  st.text_input("BMI value")
     
